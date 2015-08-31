@@ -15,3 +15,5 @@ Required
 [x] User can pull to refresh the movie list.
 
 ![Video Walkthrough](rottentomatoes.gif)
+
+Noted: need to install cocoapod before running this.
