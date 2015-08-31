@@ -1,6 +1,9 @@
 # RottenTomatoes
 
+Number of Hours: 12 hours
+
 Required
+
 [x] User can view a list of movies. Poster images load asynchronously.
 
 [x] User can view movie details by tapping on a cell.
