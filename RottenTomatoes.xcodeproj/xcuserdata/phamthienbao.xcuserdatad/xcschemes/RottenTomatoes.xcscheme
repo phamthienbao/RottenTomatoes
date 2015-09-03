@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "799F6847A87D06A1310C8650E257B5A6"
-               BuildableName = "AFNetworking.framework"
-               BlueprintName = "AFNetworking"
-               ReferencedContainer = "container:Pods.xcodeproj">
+               BlueprintIdentifier = "DEA9D95A1B8DEFEE00D40526"
+               BuildableName = "RottenTomatoes.app"
+               BlueprintName = "RottenTomatoes"
+               ReferencedContainer = "container:RottenTomatoes.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,6 +29,15 @@
       buildConfiguration = "Debug">
       <Testables>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "DEA9D95A1B8DEFEE00D40526"
+            BuildableName = "RottenTomatoes.app"
+            BlueprintName = "RottenTomatoes"
+            ReferencedContainer = "container:RottenTomatoes.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -42,15 +51,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "799F6847A87D06A1310C8650E257B5A6"
-            BuildableName = "AFNetworking.framework"
-            BlueprintName = "AFNetworking"
-            ReferencedContainer = "container:Pods.xcodeproj">
+            BlueprintIdentifier = "DEA9D95A1B8DEFEE00D40526"
+            BuildableName = "RottenTomatoes.app"
+            BlueprintName = "RottenTomatoes"
+            ReferencedContainer = "container:RottenTomatoes.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -60,6 +70,16 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "DEA9D95A1B8DEFEE00D40526"
+            BuildableName = "RottenTomatoes.app"
+            BlueprintName = "RottenTomatoes"
+            ReferencedContainer = "container:RottenTomatoes.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

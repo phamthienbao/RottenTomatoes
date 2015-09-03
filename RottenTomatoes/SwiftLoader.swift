@@ -42,11 +42,11 @@ public class SwiftLoader: UIView {
         return Singleton.instance
     }
     
-    public class func show(#animated: Bool) {
+    public class func show(animated animated: Bool) {
         self.show(title: nil, animated: animated)
     }
     
-    public class func show(#title: String?, animated : Bool) {
+    public class func show(title title: String?, animated : Bool) {
         var currentWindow : UIWindow = UIApplication.sharedApplication().keyWindow!
         
         let loader = SwiftLoader.sharedInstance

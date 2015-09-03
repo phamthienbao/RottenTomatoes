@@ -61,6 +61,7 @@
 		D8FB38328ADFD346CEE116B6F471F3A8 /* BDBOAuth1SessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DC16E8F43F014E676A9703E79E2BF5 /* BDBOAuth1SessionManager.m */; };
 		DA402D62BEA48C3AA8F51C2FF06AED61 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D1D3D666BD22767A3658ACFDBB8BB6 /* UIProgressView+AFNetworking.m */; };
 		DD3C1F9E060C22F5F646416878084522 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A3F24622075D1D54239E79505508AE0 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE3172751B97D57B00BEFD29 /* BDBOAuth1Manager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62F5D826657659A05F80CC7A119D0002 /* BDBOAuth1Manager.framework */; };
 		EEF9AF39AD2BA1D79210C65222519BA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89B1446748BBE77C59407AD980132E16 /* Foundation.framework */; };
 		F9C46229C7B840B9365A63F25949897E /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C9D0B67BD6A18CF34B13747F8830852 /* AFHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA5A5918EF9D499B7DB49215A0CBF711 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 53CAD8C89C587D172AC4920F61F2357B /* AFURLRequestSerialization.m */; };
@@ -187,6 +188,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE3172751B97D57B00BEFD29 /* BDBOAuth1Manager.framework in Frameworks */,
 				6F071346324F9ED68D81835C6F69A20F /* CoreGraphics.framework in Frameworks */,
 				EEF9AF39AD2BA1D79210C65222519BA6 /* Foundation.framework in Frameworks */,
 				A58DDD01B7BFB802E6B7AE3BF9B72994 /* MobileCoreServices.framework in Frameworks */,
@@ -326,10 +328,10 @@
 			children = (
 				6C9D0B67BD6A18CF34B13747F8830852 /* AFHTTPRequestOperation.h */,
 				2846CB9059864B4122B5AA4E60B2E961 /* AFHTTPRequestOperation.m */,
-				F7AF18460306C448CB19562A0A5736A9 /* AFHTTPRequestOperationManager.h */,
-				8575F04F24AEC39D2F89547906D90785 /* AFHTTPRequestOperationManager.m */,
 				CDC73EE44D460194D558B7D66CD68502 /* AFURLConnectionOperation.h */,
 				FA5E3A0FA137DC18770BF5EF7BCB5BC2 /* AFURLConnectionOperation.m */,
+				8575F04F24AEC39D2F89547906D90785 /* AFHTTPRequestOperationManager.m */,
+				F7AF18460306C448CB19562A0A5736A9 /* AFHTTPRequestOperationManager.h */,
 			);
 			name = NSURLConnection;
 			sourceTree = "<group>";
